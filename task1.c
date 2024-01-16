@@ -7,7 +7,8 @@ int main() {
     printf("Programming Language menu:\n");
     printf("1. Front end programming languages\n");
     printf("2. Back end programming languages\n");
-    printf("3. Logout\n");
+    printf("3. Front end and back end programming languages\n");
+    printf("4. Logout\n");
 	    
     // Getting user input for option
     printf("Enter your option: ");
@@ -23,14 +24,19 @@ int main() {
             printf("Python\nSQL\nPHP\n");
             // back end programming languages
             break;
-        case 3:
+	case 3:
+	    printf("HTML\nCSS\nJS\nPython\nSQL\nPHP\n");
+            //cobiming both front end and back end language
+	    break;
+	case 4:
             printf("Logging out...\n");
             //logging out
             break;
         default:
             printf("Invalid choice!\n");
             // handling invalid choices
-
+	    break;
+    }
     return 0;
 }
-}
+
