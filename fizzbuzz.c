@@ -15,7 +15,7 @@ int main(){
 	 * its divisibke by 5 which is buzz,
 	 * or divisible by both 3 and 5 which is fizzbuzz*/
 	if ( num%3 == 0 && num%5 == 0)
-		printf("Yay! It's a fizzbuzz");
+		printf("Yaay! It's a fizzbuzz");
 	else if (num%3 == 0)
 		printf("It's a fizz");
 	else if ( num%5 == 0)
